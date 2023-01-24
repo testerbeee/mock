@@ -1,6 +1,5 @@
 {
-  "code": "0",
-  "offer":{
+ "offer": {
     "id": "",
     "card_id": 18473,
     "client_id": "",
@@ -700,8 +699,5 @@
             "created_at": "0000-00-00 00:00:00",
             "updated_at": "0000-00-00 00:00:00"
         }
-    ],
-    "currentPage": 0,
-    "pages": 2,
-    "itemsInPage": 10
+    ]
 }
