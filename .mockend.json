@@ -1,66 +1,707 @@
 {
-  "Post": {
-    "_": {
-      "items": 10
-    },
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
-    },
-    "title": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 20
-      }
-    },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "category": {
-      "string": ["one", "two", "three"]
-    },
-    "isDraft": {
-      "boolean": {}
-    },
-    "views": {
-      "int": {
-        "min": 0,
-        "max": 1000
-      }
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
-    },
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "_": {
-      "items": 25
-    },
-    "email": {
-      "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
-    },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
-    },
-    "post": {
-      "belongsTo": "Post"
-    }
-  }
+  "code": "0",
+  "offer":{
+    "id": "",
+    "card_id": 18473,
+    "client_id": "",
+    "lsp_id": "",
+    "name": "Offer No.21",
+    "title": "",
+    "title_zh": "",
+    "venue_id": "422",
+    "venue_title": "Beseen",
+    "destinations": [
+        {
+            "name": "Athens",
+            "id": "307"
+        }
+    ],
+    "venue_addresses": [
+        {
+            "address": "Akadimias 44, Athens, Greece",
+            "latlong": "37.9801985,23.7355823"
+        }
+    ],
+    "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted\r\n",
+    "retail_price": null,
+    "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
+    "description_zh": "",
+    "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646134821__111860538_gettyimages-1129310243.jpg",
+    "quantity": "2",
+    "time": "2",
+    "time_duration": "",
+    "remaining_time": -1,
+    "valid_until": "01/03/2023",
+    "product_categories": [
+        {
+            "name": "Eye Glasses",
+            "id": "383"
+        }
+    ],
+    "price_format": [
+        {
+            "dicount_value": "100",
+            "dicount_type": "%",
+            "dicount_operator": "over",
+            "dicount_quantity": "110",
+            "dicount_quantity_type": "€"
+        }
+    ],
+    "brands": [],
+    "logo": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212358_web-logo-new_180x.png",
+    "img": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646134821__111860538_gettyimages-1129310243.jpg",
+    "sliderImgs": [
+        "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_dd52c3564f1fb5caa8210cabf8f4d454_xl.jpg",
+        "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
+    ],
+    "qr_id": "",
+    "status": 1,
+    "timezone": "Europe/Athens",
+    "time_claimed": "0000-00-00 00:00:00",
+    "time_redeemed": "0000-00-00 00:00:00",
+    "created_at": "0000-00-00 00:00:00",
+    "updated_at": "0000-00-00 00:00:00"
+},
+   "venue": {
+    "id": 213,
+    "venue_id": 422,
+    "name": "Beseen",
+    "logo": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212358_web-logo-new_180x.png",
+    "image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212367_dd52c3564f1fb5caa8210cabf8f4d454_xl.jpg",
+    "addresses": [
+        {
+            "id": 257,
+            "address": "Akadimias 44, Athens, Greece",
+            "country": "Greece",
+            "destination": "Athens",
+            "timezone": "Europe/Athens",
+            "latlong": "37.9801985,23.7355823"
+        }
+    ]
+},
+    "result": [
+        {
+            "id": "",
+            "card_id": 18473,
+            "client_id": "",
+            "lsp_id": "",
+            "name": "Offer No.21",
+            "title": "",
+            "title_zh": "",
+            "venue_id": "422",
+            "venue_title": "Beseen",
+            "destinations": [
+                {
+                    "name": "Athens",
+                    "id": "307"
+                }
+            ],
+            "venue_addresses": [
+                {
+                    "address": "Akadimias 44, Athens, Greece",
+                    "latlong": "37.9801985,23.7355823"
+                }
+            ],
+            "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted\r\n",
+            "retail_price": null,
+            "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
+            "description_zh": "",
+            "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646134821__111860538_gettyimages-1129310243.jpg",
+            "quantity": "2",
+            "time": "2",
+            "time_duration": "",
+            "remaining_time": -1,
+            "valid_until": "01/03/2023",
+            "product_categories": [
+                {
+                    "name": "Eye Glasses",
+                    "id": "383"
+                }
+            ],
+            "price_format": [
+                {
+                    "dicount_value": "100",
+                    "dicount_type": "%",
+                    "dicount_operator": "over",
+                    "dicount_quantity": "110",
+                    "dicount_quantity_type": "€"
+                }
+            ],
+            "brands": [],
+            "logo": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212358_web-logo-new_180x.png",
+            "img": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646134821__111860538_gettyimages-1129310243.jpg",
+            "sliderImgs": [
+                "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_dd52c3564f1fb5caa8210cabf8f4d454_xl.jpg",
+                "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
+            ],
+            "qr_id": "",
+            "status": 1,
+            "timezone": "Europe/Athens",
+            "time_claimed": "0000-00-00 00:00:00",
+            "time_redeemed": "0000-00-00 00:00:00",
+            "created_at": "0000-00-00 00:00:00",
+            "updated_at": "0000-00-00 00:00:00"
+        },
+        {
+            "id": "",
+            "card_id": 18471,
+            "client_id": "",
+            "lsp_id": "",
+            "name": "Offer No.20",
+            "title": "",
+            "title_zh": "",
+            "venue_id": "422",
+            "venue_title": "Beseen",
+            "destinations": [
+                {
+                    "name": "Athens",
+                    "id": "307"
+                }
+            ],
+            "venue_addresses": [
+                {
+                    "address": "Akadimias 44, Athens, Greece",
+                    "latlong": "37.9801985,23.7355823"
+                }
+            ],
+            "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted\r\n",
+            "retail_price": null,
+            "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
+            "description_zh": "",
+            "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646134601_121219_chimpphoto-0905a.files_.jpg",
+            "quantity": "3",
+            "time": "3",
+            "time_duration": "",
+            "remaining_time": -1,
+            "valid_until": "01/03/2023",
+            "product_categories": [
+                {
+                    "name": "Eye Glasses",
+                    "id": "383"
+                }
+            ],
+            "price_format": [
+                {
+                    "dicount_value": "100",
+                    "dicount_type": "€",
+                    "dicount_operator": "over",
+                    "dicount_quantity": "10",
+                    "dicount_quantity_type": "Item(s)"
+                }
+            ],
+            "brands": [],
+            "logo": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212358_web-logo-new_180x.png",
+            "img": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646134601_121219_chimpphoto-0905a.files_.jpg",
+            "sliderImgs": [
+                "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_dd52c3564f1fb5caa8210cabf8f4d454_xl.jpg",
+                "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
+            ],
+            "qr_id": "",
+            "status": 1,
+            "timezone": "Europe/Athens",
+            "time_claimed": "0000-00-00 00:00:00",
+            "time_redeemed": "0000-00-00 00:00:00",
+            "created_at": "0000-00-00 00:00:00",
+            "updated_at": "0000-00-00 00:00:00"
+        },
+        {
+            "id": "",
+            "card_id": 18469,
+            "client_id": "",
+            "lsp_id": "",
+            "name": "Offer No.19",
+            "title": "",
+            "title_zh": "",
+            "venue_id": "422",
+            "venue_title": "Beseen",
+            "destinations": [
+                {
+                    "name": "Athens",
+                    "id": "307"
+                }
+            ],
+            "venue_addresses": [
+                {
+                    "address": "Akadimias 44, Athens, Greece",
+                    "latlong": "37.9801985,23.7355823"
+                }
+            ],
+            "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted\r\n",
+            "retail_price": null,
+            "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
+            "description_zh": "",
+            "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646134532_jacfdmxaismclaarwdsndh.jpg",
+            "quantity": "2",
+            "time": "2",
+            "time_duration": "",
+            "remaining_time": -1,
+            "valid_until": "01/03/2023",
+            "product_categories": [
+                {
+                    "name": "Eye Glasses",
+                    "id": "383"
+                }
+            ],
+            "price_format": [
+                {
+                    "dicount_value": "10",
+                    "dicount_type": "€",
+                    "dicount_operator": "over",
+                    "dicount_quantity": "100",
+                    "dicount_quantity_type": "€"
+                }
+            ],
+            "brands": [],
+            "logo": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212358_web-logo-new_180x.png",
+            "img": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646134532_jacfdmxaismclaarwdsndh.jpg",
+            "sliderImgs": [
+                "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_dd52c3564f1fb5caa8210cabf8f4d454_xl.jpg",
+                "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
+            ],
+            "qr_id": "",
+            "status": 1,
+            "timezone": "Europe/Athens",
+            "time_claimed": "0000-00-00 00:00:00",
+            "time_redeemed": "0000-00-00 00:00:00",
+            "created_at": "0000-00-00 00:00:00",
+            "updated_at": "0000-00-00 00:00:00"
+        },
+        {
+            "id": "",
+            "card_id": 18465,
+            "client_id": "",
+            "lsp_id": "",
+            "name": "Offer No.17",
+            "title": "",
+            "title_zh": "",
+            "venue_id": "422",
+            "venue_title": "Beseen",
+            "destinations": [
+                {
+                    "name": "Athens",
+                    "id": "307"
+                }
+            ],
+            "venue_addresses": [
+                {
+                    "address": "Akadimias 44, Athens, Greece",
+                    "latlong": "37.9801985,23.7355823"
+                }
+            ],
+            "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted",
+            "retail_price": null,
+            "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
+            "description_zh": "",
+            "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646134057_images_3.jpeg",
+            "quantity": "2",
+            "time": "2",
+            "time_duration": "",
+            "remaining_time": -1,
+            "valid_until": "01/03/2023",
+            "product_categories": [
+                {
+                    "name": "Eye Glasses",
+                    "id": "383"
+                }
+            ],
+            "price_format": [
+                {
+                    "dicount_value": "42",
+                    "dicount_type": "€",
+                    "dicount_operator": "over",
+                    "dicount_quantity": "192",
+                    "dicount_quantity_type": "€"
+                }
+            ],
+            "brands": [],
+            "logo": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212358_web-logo-new_180x.png",
+            "img": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646134057_images_3.jpeg",
+            "sliderImgs": [
+                "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_dd52c3564f1fb5caa8210cabf8f4d454_xl.jpg",
+                "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
+            ],
+            "qr_id": "",
+            "status": 1,
+            "timezone": "Europe/Athens",
+            "time_claimed": "0000-00-00 00:00:00",
+            "time_redeemed": "0000-00-00 00:00:00",
+            "created_at": "0000-00-00 00:00:00",
+            "updated_at": "0000-00-00 00:00:00"
+        },
+        {
+            "id": "",
+            "card_id": 18463,
+            "client_id": "",
+            "lsp_id": "",
+            "name": "Offer No.16",
+            "title": "",
+            "title_zh": "",
+            "venue_id": "422",
+            "venue_title": "Beseen",
+            "destinations": [
+                {
+                    "name": "Athens",
+                    "id": "307"
+                }
+            ],
+            "venue_addresses": [
+                {
+                    "address": "Akadimias 44, Athens, Greece",
+                    "latlong": "37.9801985,23.7355823"
+                }
+            ],
+            "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted\r\n",
+            "retail_price": null,
+            "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
+            "description_zh": "",
+            "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646133991_file-20190722-11355-1peled7.jpg",
+            "quantity": "2",
+            "time": "2",
+            "time_duration": "",
+            "remaining_time": -1,
+            "valid_until": "01/03/2023",
+            "product_categories": [
+                {
+                    "name": "Eye Glasses",
+                    "id": "383"
+                }
+            ],
+            "price_format": [
+                {
+                    "dicount_value": "3",
+                    "dicount_type": "Items",
+                    "dicount_operator": "for",
+                    "dicount_quantity": "4",
+                    "dicount_quantity_type": "Item(s)"
+                }
+            ],
+            "brands": [],
+            "logo": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212358_web-logo-new_180x.png",
+            "img": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646133991_file-20190722-11355-1peled7.jpg",
+            "sliderImgs": [
+                "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_dd52c3564f1fb5caa8210cabf8f4d454_xl.jpg",
+                "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
+            ],
+            "qr_id": "",
+            "status": 1,
+            "timezone": "Europe/Athens",
+            "time_claimed": "0000-00-00 00:00:00",
+            "time_redeemed": "0000-00-00 00:00:00",
+            "created_at": "0000-00-00 00:00:00",
+            "updated_at": "0000-00-00 00:00:00"
+        },
+        {
+            "id": "",
+            "card_id": 18461,
+            "client_id": "",
+            "lsp_id": "",
+            "name": "Offer No.15",
+            "title": "",
+            "title_zh": "",
+            "venue_id": "422",
+            "venue_title": "Beseen",
+            "destinations": [
+                {
+                    "name": "Athens",
+                    "id": "307"
+                }
+            ],
+            "venue_addresses": [
+                {
+                    "address": "Akadimias 44, Athens, Greece",
+                    "latlong": "37.9801985,23.7355823"
+                }
+            ],
+            "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted",
+            "retail_price": null,
+            "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
+            "description_zh": "",
+            "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646133916_images_6.jpeg",
+            "quantity": "3",
+            "time": "3",
+            "time_duration": "",
+            "remaining_time": -1,
+            "valid_until": "01/03/2023",
+            "product_categories": [
+                {
+                    "name": "Eye Glasses",
+                    "id": "383"
+                }
+            ],
+            "price_format": [
+                {
+                    "dicount_value": "22",
+                    "dicount_type": "€",
+                    "dicount_operator": "for",
+                    "dicount_quantity": "4",
+                    "dicount_quantity_type": "Item(s)"
+                }
+            ],
+            "brands": [],
+            "logo": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212358_web-logo-new_180x.png",
+            "img": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646133916_images_6.jpeg",
+            "sliderImgs": [
+                "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_dd52c3564f1fb5caa8210cabf8f4d454_xl.jpg",
+                "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
+            ],
+            "qr_id": "",
+            "status": 1,
+            "timezone": "Europe/Athens",
+            "time_claimed": "0000-00-00 00:00:00",
+            "time_redeemed": "0000-00-00 00:00:00",
+            "created_at": "0000-00-00 00:00:00",
+            "updated_at": "0000-00-00 00:00:00"
+        },
+        {
+            "id": "",
+            "card_id": 18459,
+            "client_id": "",
+            "lsp_id": "",
+            "name": "Offer No.14",
+            "title": "",
+            "title_zh": "",
+            "venue_id": "422",
+            "venue_title": "Beseen",
+            "destinations": [
+                {
+                    "name": "Athens",
+                    "id": "307"
+                }
+            ],
+            "venue_addresses": [
+                {
+                    "address": "Akadimias 44, Athens, Greece",
+                    "latlong": "37.9801985,23.7355823"
+                }
+            ],
+            "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted\r\n",
+            "retail_price": null,
+            "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
+            "description_zh": "",
+            "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646133846_jacfdmxaismclaarwdsndh.jpg",
+            "quantity": "3",
+            "time": "3",
+            "time_duration": "",
+            "remaining_time": -1,
+            "valid_until": "01/03/2023",
+            "product_categories": [
+                {
+                    "name": "Eye Glasses",
+                    "id": "383"
+                }
+            ],
+            "price_format": [
+                {
+                    "dicount_value": "40",
+                    "dicount_type": "€",
+                    "dicount_operator": "over",
+                    "dicount_quantity": "120",
+                    "dicount_quantity_type": "€"
+                }
+            ],
+            "brands": [],
+            "logo": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212358_web-logo-new_180x.png",
+            "img": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646133846_jacfdmxaismclaarwdsndh.jpg",
+            "sliderImgs": [
+                "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_dd52c3564f1fb5caa8210cabf8f4d454_xl.jpg",
+                "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
+            ],
+            "qr_id": "",
+            "status": 1,
+            "timezone": "Europe/Athens",
+            "time_claimed": "0000-00-00 00:00:00",
+            "time_redeemed": "0000-00-00 00:00:00",
+            "created_at": "0000-00-00 00:00:00",
+            "updated_at": "0000-00-00 00:00:00"
+        },
+        {
+            "id": "",
+            "card_id": 18457,
+            "client_id": "",
+            "lsp_id": "",
+            "name": "Offer No.13",
+            "title": "",
+            "title_zh": "",
+            "venue_id": "422",
+            "venue_title": "Beseen",
+            "destinations": [
+                {
+                    "name": "Athens",
+                    "id": "307"
+                }
+            ],
+            "venue_addresses": [
+                {
+                    "address": "Akadimias 44, Athens, Greece",
+                    "latlong": "37.9801985,23.7355823"
+                }
+            ],
+            "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted\r\n",
+            "retail_price": null,
+            "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
+            "description_zh": "",
+            "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646133669__111860538_gettyimages-1129310243.jpg",
+            "quantity": "3",
+            "time": "2",
+            "time_duration": "",
+            "remaining_time": -1,
+            "valid_until": "01/03/2023",
+            "product_categories": [
+                {
+                    "name": "Eye Glasses",
+                    "id": "383"
+                }
+            ],
+            "price_format": [
+                {
+                    "dicount_value": "10",
+                    "dicount_type": "€",
+                    "dicount_operator": "over",
+                    "dicount_quantity": "100",
+                    "dicount_quantity_type": "€"
+                }
+            ],
+            "brands": [],
+            "logo": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212358_web-logo-new_180x.png",
+            "img": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646133669__111860538_gettyimages-1129310243.jpg",
+            "sliderImgs": [
+                "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_dd52c3564f1fb5caa8210cabf8f4d454_xl.jpg",
+                "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
+            ],
+            "qr_id": "",
+            "status": 1,
+            "timezone": "Europe/Athens",
+            "time_claimed": "0000-00-00 00:00:00",
+            "time_redeemed": "0000-00-00 00:00:00",
+            "created_at": "0000-00-00 00:00:00",
+            "updated_at": "0000-00-00 00:00:00"
+        },
+        {
+            "id": "",
+            "card_id": 18455,
+            "client_id": "",
+            "lsp_id": "",
+            "name": "Offer No.12",
+            "title": "",
+            "title_zh": "",
+            "venue_id": "422",
+            "venue_title": "Beseen",
+            "destinations": [
+                {
+                    "name": "Athens",
+                    "id": "307"
+                }
+            ],
+            "venue_addresses": [
+                {
+                    "address": "Akadimias 44, Athens, Greece",
+                    "latlong": "37.9801985,23.7355823"
+                }
+            ],
+            "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted\r\n",
+            "retail_price": null,
+            "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
+            "description_zh": "",
+            "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646133605_images_5.jpeg",
+            "quantity": "2",
+            "time": "2",
+            "time_duration": "",
+            "remaining_time": -1,
+            "valid_until": "01/03/2023",
+            "product_categories": [
+                {
+                    "name": "Eye Glasses",
+                    "id": "383"
+                }
+            ],
+            "price_format": [
+                {
+                    "dicount_value": "2",
+                    "dicount_type": "€",
+                    "dicount_operator": "over",
+                    "dicount_quantity": "12",
+                    "dicount_quantity_type": "€"
+                }
+            ],
+            "brands": [],
+            "logo": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212358_web-logo-new_180x.png",
+            "img": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646133605_images_5.jpeg",
+            "sliderImgs": [
+                "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_dd52c3564f1fb5caa8210cabf8f4d454_xl.jpg",
+                "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
+            ],
+            "qr_id": "",
+            "status": 1,
+            "timezone": "Europe/Athens",
+            "time_claimed": "0000-00-00 00:00:00",
+            "time_redeemed": "0000-00-00 00:00:00",
+            "created_at": "0000-00-00 00:00:00",
+            "updated_at": "0000-00-00 00:00:00"
+        },
+        {
+            "id": "",
+            "card_id": 18453,
+            "client_id": "",
+            "lsp_id": "",
+            "name": "Offer No.11",
+            "title": "",
+            "title_zh": "",
+            "venue_id": "422",
+            "venue_title": "Beseen",
+            "destinations": [
+                {
+                    "name": "Athens",
+                    "id": "307"
+                }
+            ],
+            "venue_addresses": [
+                {
+                    "address": "Akadimias 44, Athens, Greece",
+                    "latlong": "37.9801985,23.7355823"
+                }
+            ],
+            "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted\r\n",
+            "retail_price": null,
+            "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
+            "description_zh": "",
+            "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646133502_images_1.jpeg",
+            "quantity": "2",
+            "time": "2",
+            "time_duration": "",
+            "remaining_time": -1,
+            "valid_until": "01/03/2023",
+            "product_categories": [
+                {
+                    "name": "Eye Glasses",
+                    "id": "383"
+                }
+            ],
+            "price_format": [
+                {
+                    "dicount_value": "14",
+                    "dicount_type": "€",
+                    "dicount_operator": "for",
+                    "dicount_quantity": "2",
+                    "dicount_quantity_type": "Item(s)"
+                }
+            ],
+            "brands": [],
+            "logo": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212358_web-logo-new_180x.png",
+            "img": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646133502_images_1.jpeg",
+            "sliderImgs": [
+                "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_dd52c3564f1fb5caa8210cabf8f4d454_xl.jpg",
+                "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
+            ],
+            "qr_id": "",
+            "status": 1,
+            "timezone": "Europe/Athens",
+            "time_claimed": "0000-00-00 00:00:00",
+            "time_redeemed": "0000-00-00 00:00:00",
+            "created_at": "0000-00-00 00:00:00",
+            "updated_at": "0000-00-00 00:00:00"
+        }
+    ],
+    "currentPage": 0,
+    "pages": 2,
+    "itemsInPage": 10
 }
