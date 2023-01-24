@@ -1,10 +1,10 @@
 {
  "Offer": {
-    "id": "",
+    "id": {},
     "card_id": 18473,
     
     "lsp_id": "",
-    "name": "Offer No.21",
+    "name": {"n":"Offer No.21"},
     
     
     "venue_id": "422",
