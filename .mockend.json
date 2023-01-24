@@ -1,5 +1,5 @@
 {
- "offer": {
+ "Offer": {
     "id": "",
     "card_id": 18473,
     "client_id": "",
@@ -61,7 +61,7 @@
     "created_at": "0000-00-00 00:00:00",
     "updated_at": "0000-00-00 00:00:00"
 },
-   "venue": {
+   "Venue": {
     "id": 213,
     "venue_id": 422,
     "name": "Beseen",
@@ -78,7 +78,7 @@
         }
     ]
 },
-    "result": [
+    "Result": [
         {
             "id": "",
             "card_id": 18473,
