@@ -3,7 +3,7 @@
 
         
   "Code": {"id":"0"},
-  "Offer":{
+  "Offer":{[
     "id": {
     "card_id": 18473,
     "client_id": "",
@@ -64,8 +64,8 @@
     "time_redeemed": "0000-00-00 00:00:00",
     "created_at": "0000-00-00 00:00:00",
     "updated_at": "0000-00-00 00:00:00" }
-},
-   "Venue": {
+]},
+   "Venue": {[
     "id": 213,
     "venue_id": 422,
     "name": "Beseen",
@@ -81,6 +81,7 @@
             "latlong": "37.9801985,23.7355823"
         }
     ]
+]
 },
     "Result": [
         {
