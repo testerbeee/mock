@@ -2,11 +2,11 @@
  "Offer": {
     "id": "",
     "card_id": 18473,
-    "client_id": "",
+    
     "lsp_id": "",
     "name": "Offer No.21",
-    "title": "",
-    "title_zh": "",
+    
+    
     "venue_id": "422",
     "venue_title": "Beseen",
     "destinations": [
@@ -22,10 +22,10 @@
         }
     ],
     "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted\r\n",
-    "retail_price": null,
+    
     "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
     "description_zh": "",
-    "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646134821__111860538_gettyimages-1129310243.jpg",
+    "card_image": { "img": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646134821__111860538_gettyimages-1129310243.jpg" },
     "quantity": "2",
     "time": "2",
     "time_duration": "",
@@ -54,12 +54,8 @@
         "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
     ],
     "qr_id": "",
-    "status": 1,
-    "timezone": "Europe/Athens",
-    "time_claimed": "0000-00-00 00:00:00",
-    "time_redeemed": "0000-00-00 00:00:00",
-    "created_at": "0000-00-00 00:00:00",
-    "updated_at": "0000-00-00 00:00:00"
+    "status": 1
+
 },
    "Venue": {
     "id": 213,
@@ -73,7 +69,7 @@
             "address": "Akadimias 44, Athens, Greece",
             "country": "Greece",
             "destination": "Athens",
-            "timezone": "Europe/Athens",
+            
             "latlong": "37.9801985,23.7355823"
         }
     ]
@@ -82,11 +78,11 @@
         {
             "id": "",
             "card_id": 18473,
-            "client_id": "",
+            
             "lsp_id": "",
             "name": "Offer No.21",
-            "title": "",
-            "title_zh": "",
+            
+            
             "venue_id": "422",
             "venue_title": "Beseen",
             "destinations": [
@@ -102,7 +98,7 @@
                 }
             ],
             "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted\r\n",
-            "retail_price": null,
+            
             "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
             "description_zh": "",
             "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646134821__111860538_gettyimages-1129310243.jpg",
@@ -134,21 +130,18 @@
                 "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
             ],
             "qr_id": "",
-            "status": 1,
-            "timezone": "Europe/Athens",
-            "time_claimed": "0000-00-00 00:00:00",
-            "time_redeemed": "0000-00-00 00:00:00",
-            "created_at": "0000-00-00 00:00:00",
-            "updated_at": "0000-00-00 00:00:00"
+            "status": 1
+        
+            
         },
         {
             "id": "",
             "card_id": 18471,
-            "client_id": "",
+            
             "lsp_id": "",
             "name": "Offer No.20",
-            "title": "",
-            "title_zh": "",
+            
+            
             "venue_id": "422",
             "venue_title": "Beseen",
             "destinations": [
@@ -164,7 +157,7 @@
                 }
             ],
             "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted\r\n",
-            "retail_price": null,
+            
             "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
             "description_zh": "",
             "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646134601_121219_chimpphoto-0905a.files_.jpg",
@@ -196,21 +189,21 @@
                 "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
             ],
             "qr_id": "",
-            "status": 1,
-            "timezone": "Europe/Athens",
-            "time_claimed": "0000-00-00 00:00:00",
-            "time_redeemed": "0000-00-00 00:00:00",
-            "created_at": "0000-00-00 00:00:00",
-            "updated_at": "0000-00-00 00:00:00"
+            "status": 1
+            
+            
+            
+           
+            
         },
         {
             "id": "",
             "card_id": 18469,
-            "client_id": "",
+            
             "lsp_id": "",
             "name": "Offer No.19",
-            "title": "",
-            "title_zh": "",
+            
+            
             "venue_id": "422",
             "venue_title": "Beseen",
             "destinations": [
@@ -226,7 +219,7 @@
                 }
             ],
             "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted\r\n",
-            "retail_price": null,
+            
             "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
             "description_zh": "",
             "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646134532_jacfdmxaismclaarwdsndh.jpg",
@@ -258,21 +251,21 @@
                 "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
             ],
             "qr_id": "",
-            "status": 1,
-            "timezone": "Europe/Athens",
-            "time_claimed": "0000-00-00 00:00:00",
-            "time_redeemed": "0000-00-00 00:00:00",
-            "created_at": "0000-00-00 00:00:00",
-            "updated_at": "0000-00-00 00:00:00"
+            "status": 1
+            
+            
+            
+           
+            
         },
         {
             "id": "",
             "card_id": 18465,
-            "client_id": "",
+            
             "lsp_id": "",
             "name": "Offer No.17",
-            "title": "",
-            "title_zh": "",
+            
+            
             "venue_id": "422",
             "venue_title": "Beseen",
             "destinations": [
@@ -288,7 +281,7 @@
                 }
             ],
             "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted",
-            "retail_price": null,
+            
             "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
             "description_zh": "",
             "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646134057_images_3.jpeg",
@@ -320,21 +313,21 @@
                 "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
             ],
             "qr_id": "",
-            "status": 1,
-            "timezone": "Europe/Athens",
-            "time_claimed": "0000-00-00 00:00:00",
-            "time_redeemed": "0000-00-00 00:00:00",
-            "created_at": "0000-00-00 00:00:00",
-            "updated_at": "0000-00-00 00:00:00"
+            "status": 1
+            
+            
+            
+           
+            
         },
         {
             "id": "",
             "card_id": 18463,
-            "client_id": "",
+            
             "lsp_id": "",
             "name": "Offer No.16",
-            "title": "",
-            "title_zh": "",
+            
+            
             "venue_id": "422",
             "venue_title": "Beseen",
             "destinations": [
@@ -350,7 +343,7 @@
                 }
             ],
             "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted\r\n",
-            "retail_price": null,
+            
             "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
             "description_zh": "",
             "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646133991_file-20190722-11355-1peled7.jpg",
@@ -382,21 +375,21 @@
                 "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
             ],
             "qr_id": "",
-            "status": 1,
-            "timezone": "Europe/Athens",
-            "time_claimed": "0000-00-00 00:00:00",
-            "time_redeemed": "0000-00-00 00:00:00",
-            "created_at": "0000-00-00 00:00:00",
-            "updated_at": "0000-00-00 00:00:00"
+            "status": 1
+            
+            
+            
+           
+            
         },
         {
             "id": "",
             "card_id": 18461,
-            "client_id": "",
+            
             "lsp_id": "",
             "name": "Offer No.15",
-            "title": "",
-            "title_zh": "",
+            
+            
             "venue_id": "422",
             "venue_title": "Beseen",
             "destinations": [
@@ -412,7 +405,7 @@
                 }
             ],
             "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted",
-            "retail_price": null,
+            
             "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
             "description_zh": "",
             "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646133916_images_6.jpeg",
@@ -444,21 +437,21 @@
                 "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
             ],
             "qr_id": "",
-            "status": 1,
-            "timezone": "Europe/Athens",
-            "time_claimed": "0000-00-00 00:00:00",
-            "time_redeemed": "0000-00-00 00:00:00",
-            "created_at": "0000-00-00 00:00:00",
-            "updated_at": "0000-00-00 00:00:00"
+            "status": 1
+            
+            
+            
+           
+            
         },
         {
             "id": "",
             "card_id": 18459,
-            "client_id": "",
+            
             "lsp_id": "",
             "name": "Offer No.14",
-            "title": "",
-            "title_zh": "",
+            
+            
             "venue_id": "422",
             "venue_title": "Beseen",
             "destinations": [
@@ -474,7 +467,7 @@
                 }
             ],
             "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted\r\n",
-            "retail_price": null,
+            
             "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
             "description_zh": "",
             "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646133846_jacfdmxaismclaarwdsndh.jpg",
@@ -506,21 +499,21 @@
                 "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
             ],
             "qr_id": "",
-            "status": 1,
-            "timezone": "Europe/Athens",
-            "time_claimed": "0000-00-00 00:00:00",
-            "time_redeemed": "0000-00-00 00:00:00",
-            "created_at": "0000-00-00 00:00:00",
-            "updated_at": "0000-00-00 00:00:00"
+            "status": 1
+            
+            
+            
+           
+            
         },
         {
             "id": "",
             "card_id": 18457,
-            "client_id": "",
+            
             "lsp_id": "",
             "name": "Offer No.13",
-            "title": "",
-            "title_zh": "",
+            
+            
             "venue_id": "422",
             "venue_title": "Beseen",
             "destinations": [
@@ -536,7 +529,7 @@
                 }
             ],
             "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted\r\n",
-            "retail_price": null,
+            
             "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
             "description_zh": "",
             "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646133669__111860538_gettyimages-1129310243.jpg",
@@ -568,21 +561,21 @@
                 "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
             ],
             "qr_id": "",
-            "status": 1,
-            "timezone": "Europe/Athens",
-            "time_claimed": "0000-00-00 00:00:00",
-            "time_redeemed": "0000-00-00 00:00:00",
-            "created_at": "0000-00-00 00:00:00",
-            "updated_at": "0000-00-00 00:00:00"
+            "status": 1
+            
+            
+            
+           
+            
         },
         {
             "id": "",
             "card_id": 18455,
-            "client_id": "",
+            
             "lsp_id": "",
             "name": "Offer No.12",
-            "title": "",
-            "title_zh": "",
+            
+            
             "venue_id": "422",
             "venue_title": "Beseen",
             "destinations": [
@@ -598,7 +591,7 @@
                 }
             ],
             "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted\r\n",
-            "retail_price": null,
+            
             "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
             "description_zh": "",
             "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646133605_images_5.jpeg",
@@ -630,21 +623,21 @@
                 "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
             ],
             "qr_id": "",
-            "status": 1,
-            "timezone": "Europe/Athens",
-            "time_claimed": "0000-00-00 00:00:00",
-            "time_redeemed": "0000-00-00 00:00:00",
-            "created_at": "0000-00-00 00:00:00",
-            "updated_at": "0000-00-00 00:00:00"
+            "status": 1
+            
+            
+            
+           
+            
         },
         {
             "id": "",
             "card_id": 18453,
-            "client_id": "",
+            
             "lsp_id": "",
             "name": "Offer No.11",
-            "title": "",
-            "title_zh": "",
+            
+            
             "venue_id": "422",
             "venue_title": "Beseen",
             "destinations": [
@@ -660,7 +653,7 @@
                 }
             ],
             "terms_n_conditions": "Cancelors will be traced down and eventually prosecuted\r\n",
-            "retail_price": null,
+            
             "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
             "description_zh": "",
             "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646133502_images_1.jpeg",
@@ -692,12 +685,12 @@
                 "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
             ],
             "qr_id": "",
-            "status": 1,
-            "timezone": "Europe/Athens",
-            "time_claimed": "0000-00-00 00:00:00",
-            "time_redeemed": "0000-00-00 00:00:00",
-            "created_at": "0000-00-00 00:00:00",
-            "updated_at": "0000-00-00 00:00:00"
+            "status": 1
+            
+            
+            
+           
+            
         }
     ]
 }
