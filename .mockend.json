@@ -1,45 +1,13 @@
-
 {
 
      "Offer": {
      
-    "id": "",
-    "card_id": 18473,
-    "client_id": "",
-    "lsp_id": "",
+    
     "name": "Offer No.21",
-    "title": "",
-    "title_zh": "",
-    "venue_id": "422",
-    "venue_title": "Beseen",
-    "destinations": [
-        {
-            "name": "Athens",
-            "id": "307"
-        }
-    ],
-    "venue_addresses": [
-        {
-            "address": "Akadimias 44, Athens, Greece",
-            "latlong": "37.9801985,23.7355823"
-        }
-    ],
-    "terms_n_conditions": {"Cancelors will be traced down and eventually prosecuted\r\n"},
-    "retail_price": null,
-    "description": "this is an offer deticated to be an offer and offer only and will work only for test purposes. Every othen reason for that offer is to be asked with the offer's legal parent.\r\n",
-    "description_zh": "",
-    "card_image": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646134821__111860538_gettyimages-1129310243.jpg",
-    "quantity": "2",
-    "time": "2",
-    "time_duration": "",
-    "remaining_time": -1,
+    
+   
     "valid_until": "01/03/2023",
-    "product_categories": [
-        {
-            "name": "Eye Glasses",
-            "id": "383"
-        }
-    ],
+   
     "price_format": [
         {
             "dicount_value": "100",
@@ -49,21 +17,9 @@
             "dicount_quantity_type": "€"
         }
     ],
-    "brands": [],
     "logo": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212358_web-logo-new_180x.png",
     "img": "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646134821__111860538_gettyimages-1129310243.jpg",
-    "sliderImgs": [
-        "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_dd52c3564f1fb5caa8210cabf8f4d454_xl.jpg",
-        "https://platform.prerel.toorbee.com/shopping/cdn/shopping/shopping_22_1646212394_web-logo-new_180x.png"
-    ],
-    "qr_id": "",
-    "status": 1,
-    "timezone": "Europe/Athens",
-    "time_claimed": "0000-00-00 00:00:00",
-    "time_redeemed": "0000-00-00 00:00:00",
-    "created_at": "0000-00-00 00:00:00",
-    "updated_at": "0000-00-00 00:00:00"
-
+  
      }
  
 }
