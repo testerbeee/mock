@@ -12,11 +12,6 @@
         "maxLength": 20
       }
     },
-    {
-  "discount": {
-    "int": [10, 20, 30,50, 70]
-  }
-},
     "body": {
       "loremParagraphs": {
         "minLength": 10,
